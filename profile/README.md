@@ -1,33 +1,17 @@
-# Surypus ERP/CRM
+# surypus
 
-**Система управления предприятием нового поколения на Haskell с формальной верификацией**
+Добро пожаловать в организацию **surypus**.
 
-## ✅ Verification & Test Stats
+Проекты организации ориентированы на системные сервисы, инфраструктурные решения,
+инструменты автоматизации и развитие **Surypus**.
 
-| Metric | Value |
-|---|---|
-| License | MPL-2.0 |
-| Haskell modules | 486 |
-| Test suites (Haskell) | 69 files in `test/` |
-| Property-based tests | 3 — `Domain/HRPropertySpec`, `Domain/ProductionPropertySpec`, `Integration/PropertySpec` |
-| Integration suites | 8 — CRUD, inventory lifecycle, negative paths, performance, pool, validation |
-| SQL test scripts | 116 in `sql/test/` (of 511 SQL files total) |
-| RBAC permissions | 33 |
-| Formal verification | LiquidHaskell (optional), event-sourced audit trail |
-| Toolchain | GHC 9.6.5 · Persistent 2.18 · Esqueleto 3.6 · PostgreSQL · Scotty |
+## Репозитории
 
-**Milestone status:** v2.0 GUI & Features complete (Phases 13–21 ✅); infrastructure cycles Phases 160–171 ✅.
+- **[surypus](https://github.com/surypus/surypus)** — основной репозиторий проекта.
+- Архитектурные решения: [docs/adr](https://github.com/surypus/surypus/tree/main/docs/adr).
+- Уязвимости: [GitHub Security Advisories](https://github.com/surypus/surypus/security/advisories/new).
 
-## Quick Start
+## Участие
 
-```bash
-# Build project
-stack build Surypus
-
-# Run tests
-stack test
-```
-
-## License
-
-MPL-2.0
+Используйте Issue Forms для багов и feature requests.
+Изменения проходят через Pull Request и code review.
